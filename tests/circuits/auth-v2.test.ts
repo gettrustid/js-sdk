@@ -1,5 +1,5 @@
 import { AuthV2PubSignals } from './../../src/circuits/auth-v2';
-import { Id } from '@iden3/js-iden3-core';
+import { Id } from 'js-iden3-core-custom';
 import { Hash } from '@iden3/js-merkletree';
 import { AuthV2Inputs } from '../../src/circuits';
 import { IdentityTest, userPK, issuerPK, globalTree } from './utils';

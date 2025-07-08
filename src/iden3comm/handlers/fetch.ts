@@ -17,7 +17,7 @@ import { ICredentialWallet, getUserDIDFromCredential } from '../../credentials';
 
 import { byteDecoder, byteEncoder } from '../../utils';
 import { proving } from '@iden3/js-jwz';
-import { DID } from '@iden3/js-iden3-core';
+import { DID } from 'js-iden3-core-custom';
 import * as uuid from 'uuid';
 import {
   AbstractMessageHandler,

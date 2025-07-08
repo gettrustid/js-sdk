@@ -9,7 +9,7 @@ import {
 } from '../../src';
 import nonMerklized1 from './data/jsonld/non-merklized-1.json';
 import credentialMerklized from './data/credential-merklized.json';
-import { DID } from '@iden3/js-iden3-core';
+import { DID } from 'js-iden3-core-custom';
 import { DocumentLoader, Options, Path, getDocumentLoader } from '@iden3/js-jsonld-merklization';
 import { RemoteDocument, Url } from 'jsonld/jsonld-spec';
 import schemaDeliveryAddress from './data/jsonld/schema-delivery-address.json';

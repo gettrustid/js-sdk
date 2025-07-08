@@ -10,7 +10,7 @@ import {
   getSerializationAttrFromParsedContext,
   parseCoreClaimSlots
 } from '../../verifiable';
-import { Claim as CoreClaim } from '@iden3/js-iden3-core';
+import { Claim as CoreClaim } from 'js-iden3-core-custom';
 import { Merklizer, Options } from '@iden3/js-jsonld-merklization';
 
 import * as jsonld from 'jsonld/lib';

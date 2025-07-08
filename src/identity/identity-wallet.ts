@@ -11,7 +11,7 @@ import {
   Id,
   NetworkId,
   SchemaHash
-} from '@iden3/js-iden3-core';
+} from 'js-iden3-core-custom';
 import {
   poseidon,
   PublicKey,

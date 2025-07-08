@@ -24,7 +24,7 @@ import {
   AbstractMessageHandler,
   MessageHandler
 } from '../../src/iden3comm/handlers/message-handler';
-import { DID } from '@iden3/js-iden3-core';
+import { DID } from 'js-iden3-core-custom';
 import {
   MOCK_STATE_STORAGE,
   RHS_URL,

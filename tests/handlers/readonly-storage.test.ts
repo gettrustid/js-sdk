@@ -1,6 +1,6 @@
 import { expect } from 'chai';
 import { DidResolverStateReadonlyStorage, IStateStorage } from '../../src';
-import { DID } from '@iden3/js-iden3-core';
+import { DID } from 'js-iden3-core-custom';
 import { Hash } from '@iden3/js-merkletree';
 import nock from 'nock';
 

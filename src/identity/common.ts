@@ -1,4 +1,4 @@
-import { DID, Id, IdPosition, MerklizedRootPosition } from '@iden3/js-iden3-core';
+import { DID, Id, IdPosition, MerklizedRootPosition } from 'js-iden3-core-custom';
 import { SchemaMetadata } from '../schema-processor';
 import { SubjectPosition } from '../verifiable';
 

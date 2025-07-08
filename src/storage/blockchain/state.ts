@@ -6,7 +6,7 @@ import { StateInfo } from '../entities/state';
 import { StateTransitionPubSignals } from '../../circuits';
 import { byteEncoder } from '../../utils';
 import abi from './abi/State.json';
-import { DID, getChainId, Id } from '@iden3/js-iden3-core';
+import { DID, getChainId, Id } from 'js-iden3-core-custom';
 import { ITransactionService, TransactionService } from '../../blockchain';
 import { prepareZkpProof } from './common';
 import { ICache, createInMemoryCache } from '../memory';

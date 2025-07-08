@@ -1,4 +1,4 @@
-import { DID } from '@iden3/js-iden3-core';
+import { DID } from 'js-iden3-core-custom';
 import { Token, ProvingMethodAlg } from '@iden3/js-jwz';
 import { ZKPPackerParams } from '../../src/iden3comm/types';
 import { AuthV2PubSignals } from '../../src/circuits';

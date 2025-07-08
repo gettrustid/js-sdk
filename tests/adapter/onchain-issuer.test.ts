@@ -1,6 +1,6 @@
 import { OnchainIssuer } from '../../src/storage/blockchain/onchain-issuer';
 import { RPC_URL, IPFS_URL } from '../helpers';
-import { DID } from '@iden3/js-iden3-core';
+import { DID } from 'js-iden3-core-custom';
 import { W3CCredential } from '../../src/verifiable';
 import { expect } from 'chai';
 import { defaultEthConnectionConfig } from '../../src';

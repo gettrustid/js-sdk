@@ -24,7 +24,7 @@ import { RootInfo, StateProof } from '../../src/storage/entities/state';
 import path from 'path';
 import { byteEncoder } from '../../src';
 import { ZeroKnowledgeProofRequest } from '../../src/iden3comm';
-import { Blockchain, DidMethod, NetworkId } from '@iden3/js-iden3-core';
+import { Blockchain, DidMethod, NetworkId } from 'js-iden3-core-custom';
 import { expect } from 'chai';
 import { JsonRpcProvider } from 'ethers';
 import { RPC_URL } from '../helpers';

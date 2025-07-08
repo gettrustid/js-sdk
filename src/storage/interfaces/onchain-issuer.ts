@@ -1,4 +1,4 @@
-import { DID } from '@iden3/js-iden3-core';
+import { DID } from 'js-iden3-core-custom';
 import { W3CCredential } from '../../verifiable';
 
 /**

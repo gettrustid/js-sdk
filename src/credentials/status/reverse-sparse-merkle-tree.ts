@@ -1,4 +1,4 @@
-import { buildDIDType, BytesHelper, DID, Id } from '@iden3/js-iden3-core';
+import { buildDIDType, BytesHelper, DID, Id } from 'js-iden3-core-custom';
 
 import { Hash, Proof, NodeAux, ZERO_HASH, testBit } from '@iden3/js-merkletree';
 import { IStateStorage } from '../../storage';

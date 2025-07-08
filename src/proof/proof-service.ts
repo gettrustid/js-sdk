@@ -3,7 +3,7 @@ import {
   DID,
   MerklizedRootPosition,
   getDateFromUnixTimestamp
-} from '@iden3/js-iden3-core';
+} from 'js-iden3-core-custom';
 import {
   AuthV2Inputs,
   AuthV2PubSignals,

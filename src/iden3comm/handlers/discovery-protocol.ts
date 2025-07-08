@@ -16,7 +16,7 @@ import {
   BasicHandlerOptions,
   IProtocolMessageHandler
 } from './message-handler';
-import { getUnixTimestamp } from '@iden3/js-iden3-core';
+import { getUnixTimestamp } from 'js-iden3-core-custom';
 import { verifyExpiresTime } from './common';
 
 /**

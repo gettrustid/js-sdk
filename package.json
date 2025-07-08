@@ -1,5 +1,5 @@
 {
-  "name": "@0xpolygonid/js-sdk",
+  "name": "@custom-0xpolygonid/js-sdk",
   "version": "1.31.3",
   "description": "SDK to work with Polygon ID",
   "main": "dist/node/cjs/index.js",
@@ -107,6 +107,7 @@
     "did-resolver": "4.1.0",
     "ethers": "^6.13.1",
     "idb-keyval": "6.2.2",
+    "js-iden3-core-custom": "github:gettrustid/js-iden3-core",
     "js-sha3": "0.9.3",
     "jsonld": "8.3.1",
     "pubsub-js": "1.9.4",

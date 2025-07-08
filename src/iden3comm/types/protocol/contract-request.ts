@@ -7,7 +7,7 @@ import {
   ZeroKnowledgeProofRequest,
   ZeroKnowledgeProofResponse
 } from './auth';
-import { DID } from '@iden3/js-iden3-core';
+import { DID } from 'js-iden3-core-custom';
 
 /** ContractInvokeRequest represents structure of contract invoke request object */
 export type ContractInvokeRequest = BasicMessage & {

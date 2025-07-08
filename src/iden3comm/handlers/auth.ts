@@ -12,7 +12,7 @@ import {
   ZeroKnowledgeProofRequest,
   JSONObject
 } from '../types';
-import { DID, getUnixTimestamp } from '@iden3/js-iden3-core';
+import { DID, getUnixTimestamp } from 'js-iden3-core-custom';
 import { proving } from '@iden3/js-jwz';
 
 import * as uuid from 'uuid';

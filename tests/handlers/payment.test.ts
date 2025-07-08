@@ -35,7 +35,7 @@ import {
 import { expect } from 'chai';
 import path from 'path';
 import { MediaType, PROTOCOL_MESSAGE_TYPE } from '../../src/iden3comm/constants';
-import { DID, getUnixTimestamp } from '@iden3/js-iden3-core';
+import { DID, getUnixTimestamp } from 'js-iden3-core-custom';
 import {
   createPayment,
   createPaymentRequest,

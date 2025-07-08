@@ -16,7 +16,7 @@ import chai from 'chai';
 import { CredentialStatusResolverRegistry } from '../../src/credentials';
 import { RHSResolver } from '../../src/credentials';
 import { IDataSource } from '../../src';
-import { Claim, DID, SchemaHash } from '@iden3/js-iden3-core';
+import { Claim, DID, SchemaHash } from 'js-iden3-core-custom';
 import { Hash, Proof, ZERO_HASH } from '@iden3/js-merkletree';
 chai.use(chaiAsPromised);
 const { expect } = chai;

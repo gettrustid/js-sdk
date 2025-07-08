@@ -9,7 +9,7 @@ import {
   ZeroKnowledgeProofResponse
 } from '../types';
 import { ContractInvokeRequest, ContractInvokeResponse } from '../types/protocol/contract-request';
-import { DID, ChainIds, getUnixTimestamp, BytesHelper } from '@iden3/js-iden3-core';
+import { DID, ChainIds, getUnixTimestamp, BytesHelper } from 'js-iden3-core-custom';
 import { FunctionSignatures, IOnChainZKPVerifier } from '../../storage';
 import { Signer } from 'ethers';
 import { processProofAuth, processZeroKnowledgeProofRequests, verifyExpiresTime } from './common';

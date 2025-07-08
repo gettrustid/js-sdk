@@ -1,7 +1,7 @@
 import { OnchainNonMerklizedIssuerAdapter } from '../../src/storage/blockchain/onchain-issuer-adapter/non-merklized/version/v0.0.1/onchain-non-merklized-issuer-adapter';
 import { ethers } from 'ethers';
 import nock from 'nock';
-import { DID } from '@iden3/js-iden3-core';
+import { DID } from 'js-iden3-core-custom';
 import {
   NonMerklizedIssuerBaseABI as abi,
   INonMerklizedIssuer

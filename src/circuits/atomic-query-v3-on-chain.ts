@@ -1,4 +1,4 @@
-import { Claim, Id } from '@iden3/js-iden3-core';
+import { Claim, Id } from 'js-iden3-core-custom';
 import {
   BaseConfig,
   bigIntArrayToStringArray,

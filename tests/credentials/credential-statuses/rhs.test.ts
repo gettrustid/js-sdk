@@ -16,7 +16,7 @@ import {
 } from '../../../src/verifiable';
 import { Proof } from '@iden3/js-merkletree';
 import { RootInfo, StateProof } from '../../../src/storage/entities/state';
-import { Blockchain, DidMethod, NetworkId } from '@iden3/js-iden3-core';
+import { Blockchain, DidMethod, NetworkId } from 'js-iden3-core-custom';
 import { expect } from 'chai';
 import { RHSResolver } from '../../../src/credentials';
 import { CredentialStatusResolverRegistry } from '../../../src/credentials';

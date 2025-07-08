@@ -1,7 +1,7 @@
 import { ZKProof } from '@iden3/js-jwz';
 import { JsonRpcProvider, Signer } from 'ethers';
 import { RootInfo, StateInfo, StateProof } from '../entities/state';
-import { Id } from '@iden3/js-iden3-core';
+import { Id } from 'js-iden3-core-custom';
 import { Hash } from '@iden3/js-merkletree';
 
 export interface UserStateTransitionInfo {

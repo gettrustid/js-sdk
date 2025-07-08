@@ -1,4 +1,4 @@
-import { DID, getDateFromUnixTimestamp, Id } from '@iden3/js-iden3-core';
+import { DID, getDateFromUnixTimestamp, Id } from 'js-iden3-core-custom';
 import { DocumentLoader, getDocumentLoader, Path } from '@iden3/js-jsonld-merklization';
 import { Hash } from '@iden3/js-merkletree';
 import { IStateStorage, RootInfo, StateInfo } from '../../storage';

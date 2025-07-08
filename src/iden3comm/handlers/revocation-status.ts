@@ -8,7 +8,7 @@ import {
   RevocationStatusResponseMessage
 } from '../types';
 
-import { DID } from '@iden3/js-iden3-core';
+import { DID } from 'js-iden3-core-custom';
 import * as uuid from 'uuid';
 import { RevocationStatus } from '../../verifiable';
 import { TreeState } from '../../circuits';

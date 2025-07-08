@@ -19,7 +19,7 @@ import {
 import { Merklizer, Options, Path } from '@iden3/js-jsonld-merklization';
 import { byteEncoder } from '../utils';
 import { JsonDocumentObject } from '../iden3comm';
-import { Claim } from '@iden3/js-iden3-core';
+import { Claim } from 'js-iden3-core-custom';
 import { poseidon } from '@iden3/js-crypto';
 
 export type PreparedCredential = {

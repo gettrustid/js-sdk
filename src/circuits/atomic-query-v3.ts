@@ -1,4 +1,4 @@
-import { Claim, Id, SchemaHash } from '@iden3/js-iden3-core';
+import { Claim, Id, SchemaHash } from 'js-iden3-core-custom';
 import {
   BaseConfig,
   bigIntArrayToStringArray,

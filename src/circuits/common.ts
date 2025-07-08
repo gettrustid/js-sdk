@@ -1,7 +1,7 @@
 import { Hex } from '@iden3/js-crypto';
 import { Hash, ZERO_HASH, Proof, swapEndianness } from '@iden3/js-merkletree';
 import { TreeState } from './models';
-import { Id } from '@iden3/js-iden3-core';
+import { Id } from 'js-iden3-core-custom';
 
 export const defaultMTLevels = 40; // max MT levels, default value for identity circuits
 export const defaultValueArraySize = 64; // max value array size, default value for identity circuits

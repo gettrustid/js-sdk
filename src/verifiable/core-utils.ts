@@ -1,4 +1,4 @@
-import { BytesHelper, SchemaHash } from '@iden3/js-iden3-core';
+import { BytesHelper, SchemaHash } from 'js-iden3-core-custom';
 import { Merklizer, Options, Path } from '@iden3/js-jsonld-merklization';
 import { byteDecoder } from '../utils';
 

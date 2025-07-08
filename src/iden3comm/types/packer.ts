@@ -1,4 +1,4 @@
-import { DID } from '@iden3/js-iden3-core';
+import { DID } from 'js-iden3-core-custom';
 import { DataPrepareHandlerFunc, VerificationHandlerFunc } from '../packers';
 import { ProvingMethodAlg } from '@iden3/js-jwz';
 import { CircuitId } from '../../circuits';

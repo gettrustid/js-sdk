@@ -1,4 +1,4 @@
-import { Claim, DID, Id } from '@iden3/js-iden3-core';
+import { Claim, DID, Id } from 'js-iden3-core-custom';
 import { NonMerklizedIssuerBase__factory } from '@iden3/onchain-non-merklized-issuer-base-abi';
 import { NonMerklizedIssuerBase } from '@iden3/onchain-non-merklized-issuer-base-abi';
 import { INonMerklizedIssuer } from '@iden3/onchain-non-merklized-issuer-base-abi';
@@ -14,7 +14,7 @@ import { XSDNS } from '../../../../../../circuits';
 import { Hash, Proof } from '@iden3/js-merkletree';
 import { JsonDocumentObject } from '../../../../../../iden3comm';
 import { ethers } from 'ethers';
-import { getDateFromUnixTimestamp } from '@iden3/js-iden3-core';
+import { getDateFromUnixTimestamp } from 'js-iden3-core-custom';
 import { Options } from '@iden3/js-jsonld-merklization';
 import { EthConnectionConfig } from '../../../../state';
 

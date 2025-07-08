@@ -15,7 +15,7 @@ import {
 import { expect } from 'chai';
 import { DIDResolutionResult } from 'did-resolver';
 import { ES256KSigner } from 'did-jwt';
-import { DID, getChainId, Id } from '@iden3/js-iden3-core';
+import { DID, getChainId, Id } from 'js-iden3-core-custom';
 import { Hex } from '@iden3/js-crypto';
 import { MediaType } from '../../src/iden3comm/constants';
 

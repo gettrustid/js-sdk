@@ -25,7 +25,7 @@ import { RootInfo, StateProof } from '../../src/storage/entities/state';
 import path from 'path';
 import { CredentialStatusType, VerifiableConstants, W3CCredential } from '../../src/verifiable';
 import { ZeroKnowledgeProofRequest } from '../../src/iden3comm';
-import { Blockchain, DidMethod, NetworkId } from '@iden3/js-iden3-core';
+import { Blockchain, DidMethod, NetworkId } from 'js-iden3-core-custom';
 import { expect } from 'chai';
 import { RPC_URL } from '../helpers';
 import { schemaLoaderForTests } from '../mocks/schema';

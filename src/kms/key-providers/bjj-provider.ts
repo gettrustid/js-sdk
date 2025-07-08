@@ -1,5 +1,5 @@
 import { Hex, PrivateKey, PublicKey, Signature } from '@iden3/js-crypto';
-import { BytesHelper, checkBigIntInField } from '@iden3/js-iden3-core';
+import { BytesHelper, checkBigIntInField } from 'js-iden3-core-custom';
 import { IKeyProvider } from '../kms';
 import { AbstractPrivateKeyStore, KmsKeyId, KmsKeyType } from '../store';
 

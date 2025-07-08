@@ -1,6 +1,6 @@
 import { expect } from 'chai';
 import { buildDIDFromEthPubKey, JsonDocumentObject, mergeObjects } from '../../src';
-import { Blockchain, buildDIDType, DidMethod, NetworkId } from '@iden3/js-iden3-core';
+import { Blockchain, buildDIDType, DidMethod, NetworkId } from 'js-iden3-core-custom';
 
 describe('merge credential subjects to create query', () => {
   it('should merge two valid JsonDocumentObjects correctly', () => {

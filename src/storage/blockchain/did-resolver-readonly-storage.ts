@@ -3,7 +3,7 @@ import { DIDDocument, VerificationMethod } from '../../iden3comm';
 import { resolveDidDocument } from '../../utils';
 import { RootInfo, StateInfo, StateProof } from '../entities';
 import { IStateStorage } from '../interfaces';
-import { DID, Id } from '@iden3/js-iden3-core';
+import { DID, Id } from 'js-iden3-core-custom';
 import { JsonRpcProvider } from 'ethers';
 
 export class DidResolverStateReadonlyStorage implements IStateStorage {

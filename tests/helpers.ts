@@ -1,4 +1,4 @@
-import { Blockchain, DidMethod, NetworkId } from '@iden3/js-iden3-core';
+import { Blockchain, DidMethod, NetworkId } from 'js-iden3-core-custom';
 import {
   AuthDataPrepareFunc,
   BjjProvider,

@@ -33,7 +33,7 @@ import {
 import { expect } from 'chai';
 import { Wallet } from 'ethers';
 import { getRandomBytes } from '@iden3/js-crypto';
-import { Blockchain, DidMethod, NetworkId } from '@iden3/js-iden3-core';
+import { Blockchain, DidMethod, NetworkId } from 'js-iden3-core-custom';
 import { ZERO_HASH } from '@iden3/js-merkletree';
 
 describe('identity', () => {

@@ -2,7 +2,7 @@ import { PROTOCOL_MESSAGE_TYPE } from '../constants';
 import { MediaType } from '../constants';
 import { BasicMessage, IPackageManager, PackerParams } from '../types';
 
-import { DID, getUnixTimestamp } from '@iden3/js-iden3-core';
+import { DID, getUnixTimestamp } from 'js-iden3-core-custom';
 import * as uuid from 'uuid';
 import { proving } from '@iden3/js-jwz';
 import { byteEncoder } from '../../utils';

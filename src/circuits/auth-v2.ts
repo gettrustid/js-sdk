@@ -1,5 +1,5 @@
 import { Hash, Proof } from '@iden3/js-merkletree';
-import { Claim, Id } from '@iden3/js-iden3-core';
+import { Claim, Id } from 'js-iden3-core-custom';
 import { CircuitError, GISTProof, TreeState } from './models';
 import {
   BaseConfig,

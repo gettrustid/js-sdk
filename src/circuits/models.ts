@@ -1,5 +1,5 @@
 import { Signature } from '@iden3/js-crypto';
-import { Claim, Claim as CoreClaim, Id } from '@iden3/js-iden3-core';
+import { Claim, Claim as CoreClaim, Id } from 'js-iden3-core-custom';
 import { Hash, Proof } from '@iden3/js-merkletree';
 import { Operators, QueryOperators } from './comparer';
 
