@@ -215,8 +215,8 @@ const blockchainNetworkMap = {
     [`${Blockchain.Linea}:${NetworkId.Sepolia}`]: 0b0100_0000 | 0b0000_1000,
     [`${Blockchain.Billions}:${NetworkId.Main}`]: 0b1011_0000 | 0b0000_0001,
     [`${Blockchain.Billions}:${NetworkId.Test}`]: 0b1011_0000 | 0b0000_0010,
-    [`${Blockchain.TrustId}:${NetworkId.Main}`]: 0b11000000 | 0b00000001,
-    [`${Blockchain.TrustId}:${NetworkId.Test}`]: 0b11000000 | 0b00000010,
+    [`${Blockchain.TrustId}:${NetworkId.Main}`]: 0b1100_0000 | 0b0000_0001,
+    [`${Blockchain.TrustId}:${NetworkId.Test}`]: 0b1100_0000 | 0b0000_0010,
 };
 // DIDMethodNetwork is map for did methods and their blockchain networks
 const DidMethodNetwork = {
