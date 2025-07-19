@@ -19,15 +19,15 @@ import { RootInfo, StateProof } from '../../src/storage/entities/state';
 import path from 'path';
 import { byteEncoder } from '../../src';
 import { ZeroKnowledgeProofRequest } from '../../src/iden3comm';
-import { Blockchain, DID, DidMethod, NetworkId } from 'js-iden3-core-custom';
-import { expect } from 'chai';
+import { Blockchain, DID, DidMethod, NetworkId } from '@iden3/js-iden3-core';
+import { describe, expect, it, beforeEach } from 'vitest';
 import { CredentialStatusResolverRegistry } from '../../src/credentials';
 import { RHSResolver } from '../../src/credentials';
 import { JsonRpcProvider } from 'ethers';
 import { RPC_URL } from '../helpers';
 import { schemaLoaderForTests } from '../mocks/schema';
 
-describe('sig proofs', () => {
+describe.sequential('sig proofs', () => {
   let idWallet: IdentityWallet;
   let credWallet: CredentialWallet;
 

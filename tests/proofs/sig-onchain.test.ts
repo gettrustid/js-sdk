@@ -24,13 +24,13 @@ import { RootInfo, StateProof } from '../../src/storage/entities/state';
 import path from 'path';
 import { byteEncoder } from '../../src';
 import { ZeroKnowledgeProofRequest } from '../../src/iden3comm';
-import { Blockchain, DidMethod, NetworkId } from 'js-iden3-core-custom';
-import { expect } from 'chai';
+import { Blockchain, DidMethod, NetworkId } from '@iden3/js-iden3-core';
+import { describe, expect, it, beforeEach } from 'vitest';
 import { JsonRpcProvider } from 'ethers';
 import { RPC_URL } from '../helpers';
 import { schemaLoaderForTests } from '../mocks/schema';
 
-describe('sig onchain proofs', () => {
+describe.sequential('sig onchain proofs', () => {
   let idWallet: IdentityWallet;
   let credWallet: CredentialWallet;
 

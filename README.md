@@ -7,7 +7,7 @@ SDK to work with Privado ID using JavaScript and TypeScript languages.
 Installation:
 
 ```bash
-npm install @0xpolygonid/js-sdk
+npm install @custom-0xpolygonid/js-sdk
 ```
 
 ## Circuits
