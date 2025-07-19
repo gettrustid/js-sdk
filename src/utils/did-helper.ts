@@ -2,7 +2,7 @@ import { Hex } from '@iden3/js-crypto';
 import { Id, buildDIDType, genesisFromEthAddress, DID } from 'js-iden3-core-custom';
 import { Hash } from '@iden3/js-merkletree';
 import { DIDResolutionResult, VerificationMethod, DIDResolutionMetadata } from 'did-resolver';
-import { keccak256 } from 'js-sha3';
+import { keccak256 } from 'ethers';
 import { hexToBytes } from './encoding';
 
 /**
