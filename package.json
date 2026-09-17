@@ -52,7 +52,7 @@
   "devDependencies": {
     "@cspell/eslint-plugin": "^8.14.2",
     "@iden3/eslint-config": "https://github.com/iden3/eslint-config",
-    "@microsoft/api-documenter": "^7.8.20",
+    "@microsoft/api-documenter": "^7.30.14",
     "@microsoft/api-extractor": "^7.9.0",
     "@rollup/plugin-commonjs": "^28.0.3",
     "@rollup/plugin-json": "^6.1.0",
